@@ -1,0 +1,23 @@
+.TitleRedBlackText{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    /* background-color: aqua; */
+}
+
+.TitleRedBlackRed{
+
+    margin-bottom: 20px;
+
+}
+
+.TitleRedBlackText h2{
+
+    font-size: 30px;
+
+    
+}

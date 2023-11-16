@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import {BrowserRouter, Routes,Route} from "react-router-dom";
+import React from 'react';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Contact from "./Contact";
+import Home from "./Home";
+import News from "./News"
+import NewsDetails from "./NewsDetails"
+import NotFound from "./Components/NotFound";
+import postsData from  "./data/postsData"
+import postsContext from "./data/postsContext"
+
+
+
+
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+
+    <>
+
+      <postsContext.Provider value={postsData}>
+      
+            <Header />
+
+              <Routes>
+                <Route path= "/" element= {<Home />}  /><Route path= "/Home" element= {<Home />}  />
+                <Route path= "/Contact" element= {<Contact />}  />
+                <Route path= "/News" element= {<News />}  />
+                <Route path= "/NewsDetails/:postId" element= {<NewsDetails />}  />
+                <Route path= "/*" element= {<NotFound />}  />
+                        {/* error */}
+              </Routes>
+
+             <Footer     content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium."/>
+           </postsContext.Provider>
+    </>
+
+   
+
   );
 }
 
-export default App;
+

@@ -1,0 +1,61 @@
+
+/* -------News Page---------- */
+
+.Article-News{
+
+    width: 70%;
+    
+    margin: 1% auto;
+  
+  
+  /* 
+    background-color: aqua; */
+  }
+  
+  
+  .box{
+  
+  
+  /* background-color: violet; */
+  cursor: pointer;
+  
+    
+  }
+  
+  
+  .ArticleNews-MainTitle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  
+    
+  }
+  
+  
+  .Box-pic {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 300px;
+    gap: 25px;
+  /* background-color: #856b2a; */
+  
+   
+  }
+  
+
+
+    
+
+  
+.NewsBox {
+ 
+
+  width: 60%;
+  /* height: 500px; */
+  margin: 0 auto;
+
+  
+   
+
+  }
+  

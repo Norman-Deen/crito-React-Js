@@ -1,0 +1,145 @@
+/* Meet Our Team Our Client */
+
+.Team {
+  background-color: #EDCF86;
+  height: 1600px;
+}
+
+.OurTeamAndClientBox {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.OurTeamText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+
+.OurTeamText h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.TeamMembersPic {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.TeamMembersName {
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.TeamMembersDes {
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+  
+ /* ------Client------ */
+.Team .Client-Says .white-box {
+  height: 770px;
+  width: 70%;
+  padding: 30px 100px 120px 100px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 1px;
+}
+
+.Team .Client-Says .white-box .head {
+  text-align: center;
+  margin: 75px;
+}
+
+.ClientTitle {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.Team .Client-Says .white-box .Client {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Team .Client-Says .white-box .Client .client-sec {
+  width: 30%;
+}
+
+.clientPost {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+
+.Team .Client-Says .white-box .Client .client-sec .client-pic {
+  display: flex;
+}
+
+.client-pic h5 {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.client-name {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.Team .Client-Says .white-box .Client .client-sec .stars,
+.starGold {
+  height: 16px;
+  width: 16px;
+  margin-bottom: 40px;
+}
+
+.starGold {
+  font-size: 10px;
+  margin-bottom: 40px;
+  color: #f94d1c;
+  margin-right: 4px;
+}
+
+.Team .Client-Says .white-box .btn {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DescClient {
+  color: red;
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 0.5;
+}
+
+
+.clientPic{
+
+height: 50px;
+
+
+}
+
+
+.BtnClient{
+
+  padding: 8px 20px ;
+}

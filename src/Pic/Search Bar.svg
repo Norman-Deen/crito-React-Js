@@ -1,0 +1,10 @@
+<svg id="Search_Bar" data-name="Search Bar" xmlns="http://www.w3.org/2000/svg" width="420" height="56" viewBox="0 0 420 56">
+  <rect id="Search_Bar-2" data-name="Search Bar" width="420" height="56" rx="28" fill="#f3f3f3"/>
+  <g id="zoom-out">
+    <path id="Path" d="M5.074,5.074,0,0" transform="translate(46.926 30.926)" fill="none" stroke="#191919" stroke-linecap="square" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Oval" d="M0,6.4a6.4,6.4,0,1,1,6.4,6.4A6.4,6.4,0,0,1,0,6.4Z" transform="translate(36 20)" fill="none" stroke="#191919" stroke-linecap="square" stroke-width="2" fill-rule="evenodd"/>
+  </g>
+  <g id="Frame_3" data-name="Frame 3" transform="translate(62 20)">
+    <text id="Type_to_search..." data-name="Type to search..." transform="translate(0 -0.637)" fill="rgba(25,25,25,0.5)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-56.145" y="17">Type to search...</tspan></text>
+  </g>
+</svg>

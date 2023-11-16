@@ -1,0 +1,38 @@
+
+
+
+/* -------ArticleAndNewsSection in Home Js---------- */
+
+
+  
+
+  
+.ArticleAndNewsSectionBox {
+ 
+
+  width: 60%;
+  /* height: 500px; */
+  margin: 0 auto;
+
+  
+   
+
+  }
+  
+
+  
+.ArticleAndNewsSectionPic {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+
+  }
+
+
+
+  

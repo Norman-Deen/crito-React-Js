@@ -1,0 +1,119 @@
+/* Our Services */
+.Services {
+  background-color: #F0EFE9;
+  height: 800px;
+  position: relative; 
+
+  z-index: 0;
+}
+
+.Box-all {
+  padding-top: 90px;
+}
+
+.Services .Box-all .Services-intro h6,
+.Services .Box-all .Services-intro h2 {
+  margin-left: 180px;
+}
+
+.Services .Box-all .Services-intro h6 {
+  margin-bottom: 20px;
+}
+
+.Services .Box-all .Services-intro h2 {
+  width: 500px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.Services .Box-all .Services-Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+.Services .Box-all .Services-Box .box {
+  position: relative;
+  height: 300px;
+  width: 270px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px rgb(162, 162, 162);
+}
+
+.Services .Box-all .Services-Box .box .line {
+  width: 35px;
+  border-bottom: 1px solid black;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.Services .Box-all .Services-Box .box h5 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.Services .Box-all .Services-Box .box p {
+  margin: 15px 20px 0px 20px;
+  font-size: 14px;
+}
+
+.Services .Box-all .Services-Box .box .btn-arrow {
+  position: absolute;
+  font-size: 45px;
+  color: #191919;
+  bottom: 35px;
+  right: 27px;
+  cursor: pointer;
+}
+
+.Services .Box-all .Services-Box .box .btn-arrow .fa-circle-arrow-right {
+  transition: 0.1s;
+}
+
+.Services .Box-all .Services-Box .box .btn-arrow .fa-circle-arrow-right:hover {
+  color: #856b2a;
+  transform: scale(1.3);
+}
+
+.Services .Box-all .Services-Box .two {
+  background-color: #EDCF86;
+}
+
+.Services .Box-all .Services-Box .two .fa-circle-arrow-right {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: -50px;
+  animation: pandle 1.5s infinite ease-in-out;
+}
+
+@keyframes pandle {
+  0% {
+    left: -60px;
+  }
+  50% {
+    left: -30px;
+  }
+  100% {
+    left: -60px;
+  }
+}
+
+.OurServicesBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  
+}
+
+.OurServicesPic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}

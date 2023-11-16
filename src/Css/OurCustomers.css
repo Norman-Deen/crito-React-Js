@@ -1,0 +1,17 @@
+
+  .customers {
+    background-color: #FFFFFF;
+    margin: 50px;
+  }
+  .customers .customers-pic {
+    display: flex;
+    justify-content: center;
+    
+  }
+  @media (max-width: 391px) {
+  .customers .customers-pic {
+     flex-wrap: wrap;
+     gap: 50px;
+     border: 1px solid gray;
+    }}
+  

@@ -1,0 +1,255 @@
+.NewsDetailsBox{
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+width: 70%;
+}
+
+
+.NewsDetailsBoxLeft{
+
+    /* background-color: aqua; */
+
+    width: 53%;
+    /* margin: 40px; */
+
+
+}
+
+.BoxRight{
+
+    /* background-color:  bisque; */
+
+    width: 300px;
+    /* margin: 40px; */
+
+}
+
+.TitleRedBlackNewsDetails{
+
+width: 400px;
+
+
+}
+
+
+
+.NewsDetailsDateTitleAurthur{
+
+margin-bottom: 40px;
+
+
+}
+.NewsDetailsDateTitleAurthurP{
+  font-size: 10px;
+}
+
+.pointOrange {
+  background-color: #F9D783;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin: 0 25px;
+  display: inline-block;
+ 
+  
+}
+
+.NewsTwoS1{
+    margin: 0 25px;
+}
+
+.NewsTwoPic1{
+
+margin: 30px 0;
+
+
+
+
+
+}
+
+
+.NewsDetailsPic{
+   width: 600px;
+   
+ 
+}
+
+.DivNewsTwoPic2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 70px 0;
+
+
+}
+
+.NewsTwoPic2{
+
+  margin-right: 20px;
+  width: 20px;
+}
+
+.DivNewsTwoPic2 h5{
+
+font-size: 15px;
+line-height: 2;
+
+}
+
+.SearchBox{
+    margin-top: 240px;
+    width: 300px;
+
+}
+
+.DivBoxRightUpp{
+
+height: 350px;
+margin-top: 30px;
+
+padding: 30px;
+border: 2px solid rgb(205, 205, 205);
+border-radius: 5px;
+
+}
+
+.BoxRightline {
+ 
+  border-bottom: 1px solid rgb(205, 205, 205);
+  margin: 5px auto;
+
+ 
+}
+
+.BoxRightP{
+  font-weight: 600;
+  font-size: 10px;
+
+  margin: 5px;
+  
+}
+.BoxRightS{
+  font-weight: 600;
+  font-size: 10px;
+  color: gray;
+  margin-left: 10px;
+}
+
+
+.BoxRightDate{
+
+ font-size: 10px;
+
+ 
+
+}
+
+
+.RecentPosts{
+
+font-size: 13px;
+font-weight: 800;
+margin: 0;
+
+
+
+}
+.DivBoxRightDown{
+
+  border: 2px solid rgb(205, 205, 205);
+  border-radius: 5px;
+  margin: 25px 0 ;
+  padding: 30px;
+  height: 220px;
+
+}
+
+.NewsDetailsBoxLeftPtext{
+margin-top: 30px;
+
+font-size: 11px;
+
+line-height: 25px;
+
+
+
+
+}
+
+
+.ButtonAG{
+
+color: gray;
+    
+size: 10px;
+width: 500px;
+
+margin-bottom: 40px;
+
+}
+
+
+.btn-gray {
+    background-color: #d9d9d9;
+   
+    color: #191919;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: 400;
+    font-size: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+
+.ArticleAndNewsSectionBoxBackGround{
+
+
+background-color:#F0EFE9;
+padding-top: 5px;
+
+
+  }
+
+  .TitleRedBlackArticleAndNews{
+
+    margin-top: 20px;
+
+   
+
+  }
+
+
+  .ArticleAndNewsSectionBox{
+
+
+
+
+
+
+  }
+
+
+  .btn-transparent-W {
+    background-color: white;
+    border: 1px solid #191919;
+    color: #191919;
+    text-decoration: none;
+    padding: 8px 30px;
+    font-weight: 400;
+    font-size: 10px;
+    border-radius: 25px;
+  }
+
+
+
+  .fa-solid .fa-square-arrow-up-right{
+
+size: 5px;
+
+
+  }
