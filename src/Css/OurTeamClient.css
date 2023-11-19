@@ -1,4 +1,4 @@
-/* Meet Our Team Our Client */
+/* General Styles */
 
 .Team {
   background-color: #EDCF86;
@@ -9,6 +9,8 @@
   width: 60%;
   margin: 0 auto;
 }
+
+/* Our Team Section */
 
 .OurTeamText {
   display: flex;
@@ -41,15 +43,8 @@
   font-size: 10px;
 }
 
+/* Client Section */
 
-
-
-
-
-
-
-  
- /* ------Client------ */
 .Team .Client-Says .white-box {
   height: 770px;
   width: 70%;
@@ -101,18 +96,14 @@
   margin-top: 10px;
 }
 
-.Team .Client-Says .white-box .Client .client-sec .stars,
-.starGold {
-  height: 16px;
-  width: 16px;
-  margin-bottom: 40px;
-}
-
 .starGold {
   font-size: 10px;
   margin-bottom: 40px;
   color: #f94d1c;
   margin-right: 4px;
+  height: 16px;
+  width: 16px;
+  text-decoration: none;
 }
 
 .Team .Client-Says .white-box .btn {
@@ -130,16 +121,10 @@
   line-height: 0.5;
 }
 
-
-.clientPic{
-
-height: 50px;
-
-
+.clientPic {
+  height: 50px;
 }
 
-
-.BtnClient{
-
-  padding: 8px 20px ;
+.BtnClient {
+  padding: 8px 20px;
 }

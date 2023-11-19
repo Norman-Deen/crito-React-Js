@@ -23,10 +23,6 @@ export default function OurCustomers(props) {
 
 
 
-
-
-
-
 // oldWay----------
 
 // import Pic1 from "../Pic/paperz.svg";

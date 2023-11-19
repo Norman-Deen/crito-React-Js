@@ -8,7 +8,7 @@ export default function NewsAndArticlesHeader() {
 
   return (
     <div>
-      {/*Lets Connect*/}
+      
       <section className="Connect-showcase">
         <img
           className="background-lines"

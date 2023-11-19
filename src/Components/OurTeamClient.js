@@ -4,7 +4,6 @@ import Pic1 from "../Pic/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg";
 import Pic2 from "../Pic/itay-verchik-6ZKGBzrDd3I-unsplash.jpg";
 import Pic3 from "../Pic/christina-wocintechchat-com-Zpzf7TLj_gA-unsplash.jpg";
 import Pic4 from "../Pic/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg";
-
 import Pic6 from "../Pic/vince-veras-AJIqZDAUD7A-unsplash.jpg";
 import Pic7 from "../Pic/christina-wocintechchat-com-PlikkWB79qs-unsplash.jpg";
 import Pic8 from "../Pic/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg";
@@ -62,31 +61,16 @@ export default function OurTeamAndClient(props) {
                 <h2>{props.titleMain}</h2>
               </div>
         
-              <ButtonA  text="Browse Team" className="btn-yellow s" iconClassName="fa-solid fa-square-arrow-up-right" />
+              <ButtonA  text="Browse Team" className="btn-transparent" iconClassName="fa-solid fa-square-arrow-up-right" />
              
           </div>
         
           <div className="TeamMembersPic">
-          
-            <TeamMembers  MemberPic = {Pic1}
-                          MemberName = "Kristine Palmer"
-                          MemberDes = "Chief Operation Officer"/>
-        
-            <TeamMembers  MemberPic = {Pic2}
-                          MemberName = "Mark Aubri"
-                          MemberDes = "Senior Consultant"/>
-        
-            <TeamMembers  MemberPic = {Pic3}
-                          MemberName = "Kimberly Hansen"
-                          MemberDes = "Senior Consultant"/>
-        
-            <TeamMembers  MemberPic = {Pic4}
-                          MemberName = "Justin Willoman"
-                          MemberDes = "Senior Tech Consultant"/>
-        
+            <TeamMembers  MemberPic = {Pic1} MemberName = "Kristine Palmer" MemberDes = "Chief Operation Officer" />
+            <TeamMembers  MemberPic = {Pic2} MemberName = "Mark Aubri" MemberDes = "Senior Consultant"/>
+            <TeamMembers  MemberPic = {Pic3} MemberName = "Kimberly Hansen" MemberDes = "Senior Consultant"/>
+            <TeamMembers  MemberPic = {Pic4} MemberName = "Justin Willoman" MemberDes = "Senior Tech Consultant"/>
           </div>
-
-
         
       </div>
         <PointBlack />
@@ -99,18 +83,12 @@ export default function OurTeamAndClient(props) {
               <h2 className="ClientTitle">{props.titleMainClient}</h2>
             </div>
               <div className="Client">
-
-              <OurClient titleClient="" NameClient = "Cassandra Warren" DescClient = "Business Manager, Dorfus" clientPic={Pic6} />
-                                  
-              <OurClient titleClient="" NameClient = "Amanda Tulling" DescClient = "Senior Developer, Square" clientPic={Pic7}   />
-                            
-              <OurClient titleClient="" NameClient = "Jack McDogglas" DescClient = "Key Account Manager, Gobona"  clientPic={Pic8}   />
-              
+              <OurClient NameClient = "Cassandra Warren" DescClient = "Business Manager, Dorfus"    clientPic={Pic6} />                 
+              <OurClient NameClient = "Amanda Tulling"   DescClient = "Senior Developer, Square"    clientPic={Pic7}   />           
+              <OurClient NameClient = "Jack McDogglas"   DescClient = "Key Account Manager, Gobona" clientPic={Pic8}   />
               </div>
             <div className="btn">
-
               <ButtonA text="All Reviews" className="btn-black BtnClient" iconClassName="fa-solid fa-square-arrow-up-right" />
-                
             </div>
           </div>
         </section>

@@ -27,8 +27,8 @@ export default function ProjectCaseStudies(props) {
       <section className="project-and-case">
         <div className="container">
           <div className="section-title">
-            <p className="ProjectCaseStudiesP">Project &amp; case studies</p>
-            <h2>{props.titleMain}</h2>
+            <h6 className="ProjectCaseStudiesh6">Project &amp; case studies</h6>
+            <h2 className="ProjectCaseStudiesh2">{props.titleMain}</h2>
           </div>
           <div className="project-and-cases">
 

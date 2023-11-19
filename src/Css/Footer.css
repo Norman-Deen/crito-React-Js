@@ -1,4 +1,4 @@
-/* --------Footer Component------- */
+
 footer {
   background-color: #0E1021;
   color: #fff;
@@ -50,7 +50,7 @@ footer .footer-sec .logo {
 footer .line-wave {
   position: absolute;
   right: 0;
-  top: 345px;
+  top: 296px;
 }
 
 footer .line-a {

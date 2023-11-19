@@ -1,0 +1,24 @@
+.NotFound{
+   
+  /* text-align: center;
+  height: 30vh;
+  margin: 100px;
+  padding: 3%;
+  font-size: 30px; */
+/* height: 500px; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 70px;
+margin: 50px;
+
+
+}
+
+  .NotFoundText{
+
+    font-weight: 800;
+    font-size: 50px;
+    
+  }

@@ -1,5 +1,4 @@
-
-import {BrowserRouter, Routes,Route} from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
 import React from 'react';
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -31,12 +30,13 @@ export default function App() {
                 <Route path= "/Contact" element= {<Contact />}  />
                 <Route path= "/News" element= {<News />}  />
                 <Route path= "/NewsDetails/:postId" element= {<NewsDetails />}  />
-                <Route path= "/*" element= {<NotFound />}  />
-                        {/* error */}
+                <Route path= "/*" element= {<NotFound />}  /> {/* error */}      
               </Routes>
 
-             <Footer     content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium."/>
+             <Footer  />
+
            </postsContext.Provider>
+
     </>
 
    

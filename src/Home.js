@@ -9,14 +9,11 @@ import OurTeamAndClient from "./Components/OurTeamClient"
 import ArticleNews from "./Components/ArticleNews"
 import NewsLetter from "./Components/NewsLetter"
 import PointBlack from "./assets/PointBlack"
-import ButtonA from "./assets/ButtonA"
 import TitleRedBlack from "./assets/TitleRedBlack"
-import Image1 from "./Pic/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg";
-import Image2 from "./Pic/emiliano-vittoriosi-vEN1bsdSjxM-unsplash.jpg";
-import Image3 from "./Pic/kobu-agency-ipARHaxETRk-unsplash.jpg";
 
 
-import ArticleNewsTreeSec from "./Components/ArticleNewsTreeSec"
+
+
 
  
 
@@ -77,13 +74,7 @@ return(
 
 
 
-    {/* <ArticleNewsTreeSec   titleRed="Article &amp; News"
-                          MainTitle="Get Every Single Articles &amp; News" 
-                          ButtonAText="Browse Articles" ButtonAclassName="btn-transparent s" href="/News"
-                          ButtonAiconClassName="fa-solid fa-square-arrow-up-right"
-                          ArticlesPic1={Image1}
-                          ArticlesPic2={Image2}
-                          ArticlesPic3={Image3} /> */}
+  
 
 
 
@@ -92,23 +83,20 @@ return(
 
 
         <TitleRedBlack className="" titleRed="Article &amp; News"
-                            MainTitle="Get Every Single Articles &amp; News" 
-                            ButtonAText="Browse Articles" ButtonAclassName="btn-transparent s" href="/News"
-                            ButtonAiconClassName="fa-solid fa-square-arrow-up-right" />
+                       MainTitle="Get Every Single Articles &amp; News" 
+                       ButtonAText="Browse Articles" ButtonAclassName="btn-transparent s" href="/News"
+                       ButtonAiconClassName="fa-solid fa-square-arrow-up-right" />
       
       
       
       
          <div className="ArticleAndNewsSectionPic">
          
-         <ArticleNews  PicID="cb24396b-ae21-4c34-a267-d0cd0600aa6d"      
-                       dateNumber="11"  dateMonth="" titleMainBox="" titleBox="" herf="/NewsDetails" />
+         <ArticleNews  ArticleID="cb24396b-ae21-4c34-a267-d0cd0600aa6d"  herf={`/NewsDetails/cb24396b-ae21-4c34-a267-d0cd0600aa6d`}/>
       
-         <ArticleNews  PicID="cc6c2b75-8ee7-4e4e-8a99-66fe89a4b789"  titleRed=""     titleBlack=""           ButtonAText="" ButtonAclassName=""  ButtonAiconClassName=""
-                       dateNumber="17"  dateMonth="Mar" titleMainBox="Business" titleBox="" />    
+         <ArticleNews  ArticleID="cc6c2b75-8ee7-4e4e-8a99-66fe89a4b789"  herf={`/NewsDetails/cc6c2b75-8ee7-4e4e-8a99-66fe89a4b789`} />    
       
-         <ArticleNews  PicID="228c829d-4f66-431f-bb20-1b3aed2869b6"     titleRed=""     titleBlack=""   ButtonAText="" ButtonAclassName=""  ButtonAiconClassName=""
-                       dateNumber="13"  dateMonth="Mar" titleMainBox="Business" titleBox="" />
+         <ArticleNews  ArticleID="228c829d-4f66-431f-bb20-1b3aed2869b6"   herf={`/NewsDetails/228c829d-4f66-431f-bb20-1b3aed2869b6`}  />
       
          </div>
 

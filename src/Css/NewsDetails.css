@@ -224,10 +224,14 @@ padding-top: 5px;
   }
 
 
-  .ArticleAndNewsSectionBox{
+  .PostNotFound{
 
 
-
+font-size: 100px;
+font-weight: 800;
+text-align: center;
+color: #4d4d4d;
+height: 400px ;
 
 
 
