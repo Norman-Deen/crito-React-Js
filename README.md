@@ -8,7 +8,7 @@ This project showcases a professional landing page for a fictional consulting fi
 ## 🚀 Features
 
 - ⚛️ Built with React.js
-- 💅 Styled using SCSS modules
+- 💅 Styled using CSS files
 - 📱 Fully responsive design
 - 🧱 Organized folder structure for scalability
 - 🌐 Clean UI layout modeled after modern agency websites
@@ -20,14 +20,14 @@ This project showcases a professional landing page for a fictional consulting fi
 ```
 
 src/
-├── components/      # Reusable UI components
-├── colors/          # SCSS color variables
-├── mixins/          # SCSS mixins
-├── misc/            # Miscellaneous SCSS utilities
-├── main.scss        # Main SCSS entry file
-└── App.jsx          # Root React component
+├── Components/      # Reusable React components
+├── Css/             # Component and page styles
+├── data/            # Data access and contexts
+├── assets/          # Shared UI helpers
+├── App.js           # Root React component
+└── index.js         # Entry point
 
-````
+```
 
 ---
 
@@ -41,11 +41,11 @@ src/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/crito-React-Js.git
+git clone https://github.com/Norman-Deen/crito-React-Js.git
 cd crito-React-Js
 npm install
 npm start
-````
+```
 
 Visit: [http://localhost:3000](http://localhost:3000)
 
